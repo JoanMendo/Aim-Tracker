@@ -1,6 +1,7 @@
-div {
+div#Div {
     position: fixed; /* Position the div relative to the browser window */
     left: 50%;
+    top: 90%;
     bottom: 0; /* Position it at the bottom of the page */
     width: 0.7%; /* Make it take the full width of the page */
     height: 1.2%;
@@ -16,8 +17,10 @@ div:active{
 body {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     display: flex;
     user-select: none;
+    flex-wrap: wrap;
 
 }
 label {
@@ -46,7 +49,7 @@ h1 {
     color: #000000;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 25px;
 
 }
 button {
@@ -59,4 +62,10 @@ button {
     width: 4%;
     font-size: 20px;
     border-radius: 12px;
+}
+div.Teemo {
+    background-image: url(NicePng_teemo-png_1900801.png);
+    background-size:cover;
+    width: 60px; /* Make it take the full width of the page */
+    height: 80px;
 }
